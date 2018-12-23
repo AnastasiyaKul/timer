@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'untitled';
+  addend = 0;
+  incAddend(addend) {
+    this.addend += addend;
+  }
 }
